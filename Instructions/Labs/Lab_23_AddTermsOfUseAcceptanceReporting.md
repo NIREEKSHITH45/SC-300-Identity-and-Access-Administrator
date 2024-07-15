@@ -30,21 +30,24 @@ In this exercise, you will learn how to use Microsoft Entra terms of use policie
 
 Once you have finalized your terms of use document, use the following procedure to add it.
 
-1. In Azure Portal, in **Search resources, services and docs** type **Microsoft Entra ID** and select it.
+1. Connect to [https://entra.microsoft.com](https://entra.microsoft.com) using ODL user Credential which is Environment tab. 
 
-    ![](./media/ms-entra-id-1.png)
+   
 
-2. On the Microsoft Entra ID page, from the left-hand navigation page, under **Manage**, select **Identity Governance**.
+2. Open select **Identity Governance** in the lefthand navigation menu.
+   
+3. In the menu, under **Entitlement management**.
+   ![image](https://github.com/user-attachments/assets/e9b1a337-8c1d-4d58-ad5f-8ca2c9dadb04)
 
-    ![](./media/lab23-1.png)
 
-3. To create a new term,
+4. To create a new term,
     - In the left navigation menu of the **Identity Governance** page, under **Terms of use**, select **Terms of use (1)**.
     - On the Terms of use page, on the top menu, select **+ New terms (2)**
 
-      ![](./media/lab23-2.png)
+   ![image](https://github.com/user-attachments/assets/5e1a23d1-4c88-40ed-896e-9b2db8eb78fc)
 
-4. Within the **New terms of use** page, configure the following:
+
+5. Within the **New terms of use** page, configure the following:
     
     - **Name:** Enter **Testing terms of use (1)**. This is the terms of use that will be used in the Azure portal.
     
@@ -161,12 +164,11 @@ Once you have finalized your terms of use document, use the following procedure 
 
 13. If you choose to use your own account, you can refresh your browser. You will be prompted to sign in again. When you sign in, you will be required to accept the terms of use.
 
-     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-     > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
-
-     <validation step="022691e9-5511-4b18-8a4b-a30df2407a0f" />
+    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+    > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
+    > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+    > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 ### Task 2: Log in as an user
 
@@ -187,7 +189,7 @@ Once you have finalized your terms of use document, use the following procedure 
 
 5. From the Microsoft Entra ID **Users** section, click on **Alex Wilber** user, and from the top navigation pane click on **Reset Password** and copy the temporary password and login and reset the password to **Pa55w.rd@123**
 
-4. Validate Alex's login with the MFA request:
+6. Validate Alex's login with the MFA request:
     - View the Terms of Use **(1)**.
     - Choose to **Accept (2)**.
 
@@ -252,13 +254,15 @@ Users can review and see the terms of use that they have accepted by using the f
 
 You can edit some details of terms of use, but you can't modify an existing document. The following procedure describes how to edit the details.
 
-1. In Azure Portal, in **Search resources, services and docs** type **Microsoft Entra ID** and select it.
+1. Connect to [https://entra.microsoft.com](https://entra.microsoft.com) using ODL user Credential which is Environment tab. 
 
-    ![](./media/ms-entra-id-1.png)
+   
 
-2. On the Microsoft Entra ID page, from the left-hand navigation page, under **Manage**, select **Identity Governance**.
+2. Open select **Identity Governance** in the lefthand navigation menu.
+   
+3. In the menu, under **Entitlement management**.
+   ![image](https://github.com/user-attachments/assets/e9b1a337-8c1d-4d58-ad5f-8ca2c9dadb04)
 
-    ![](./media/lab23-1.png)
 
 3. In the left navigation menu, under **Terms of use**, select **Terms of use**.
 
